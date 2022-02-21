@@ -68,8 +68,8 @@ const Hero = ({
     );
   
     const sectionHeader = {
-      title: 'My Experiences',
-      paragraph: 'Throughout my years of highschool, I have pursued extracurricular activities which allow me to meld my passions from software to positive community impact. Below are some of those experiences which I have been a part of:'
+      title: 'Side Projects',
+      paragraph: 'Here is a showcase of some of my personal side projects which I have worked on over the years. These side projects have not only allowed me to enhance my coding logic, but learn larger scale development and create solutions through software about things that I am passionate about.'
     };
   
   return (
@@ -98,7 +98,7 @@ const Hero = ({
 
         <Grid item>
           <icon>
-            <Link activeClass='active' spy={true} smooth={true} offset={-0} duration={500} to='toJump'><KeyboardArrowDownIcon style={{fontSize:'6em'}}></KeyboardArrowDownIcon></Link>
+            <Link activeClass='active' spy={true} smooth={true} offset={-0} duration={500} to='sideProjects'><KeyboardArrowDownIcon style={{fontSize:'6em'}}></KeyboardArrowDownIcon></Link>
           </icon>
         </Grid>
       </Grid>
@@ -154,7 +154,7 @@ const Hero = ({
 className={outerClasses}
 id='toJump'
 > */}
-<div className="container" id='toJump'>
+<div className="container" id='sideProjects'>
   <div className={innerClasses}>
     <SectionHeader data={sectionHeader} className="center-content" />
     <div className={splitClasses}>
@@ -162,8 +162,8 @@ id='toJump'
       <div className="split-item">
         <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
           <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-            Lightning fast workflow
-            </div>
+            Project 1            
+          </div>
           <h3 className="mt-0 mb-12">
             Discord Study Bot
             </h3>
@@ -189,7 +189,7 @@ id='toJump'
       <div className="split-item">
         <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
           <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-            Lightning fast workflow
+            Project 2
             </div>
           <h3 className="mt-0 mb-12">
           Sorting Algorithm Visualizer
@@ -216,7 +216,7 @@ id='toJump'
       <div className="split-item">
         <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
           <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-            Lightning fast workflow
+            Project 3
             </div>
           <h3 className="mt-0 mb-12">
           StatIt NBA
@@ -232,10 +232,12 @@ id='toJump'
           )}
           data-reveal-container=".split-item">
           <Image
-            src={require('./../../assets/images/features-split-image-03.png')}
+            src={require('./../../assets/images/statit.png')}
             alt="Features split 03"
-            width={528}
-            height={396} />
+            height={3}
+            // width={400}
+            // height={200} 
+            />
         </div>
       </div>
 

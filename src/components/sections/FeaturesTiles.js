@@ -59,7 +59,7 @@ const FeaturesTiles = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div className="container" id='experiences' style={{paddingTop:'5vh'}}>
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
@@ -67,7 +67,7 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16" display style={{height:'5vh', width:'5vh'}}>
+                  <div className="features-tiles-item-image mb-16">
                   {/* <LightbulbRoundedIcon/> */}
                     <Image
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}

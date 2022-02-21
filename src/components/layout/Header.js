@@ -112,22 +112,23 @@ const Header = ({
                   <ul className={
                     classNames(
                       'list-reset text-xs',
-                      navPosition && `header-nav-${navPosition}`
-                    )}>
-                      <li>
-                      <a href='#toJump'>PROJECTS</a>
+                      navPosition && `header-nav-${navPosition}`)}>
+                      <li marginRight='0px' paddingRight='0px'>
+                      <a href='#sideProjects'>PROJECTS</a>
                       </li>
-                      <li marginLeft='0px'>
-                      <a href='#toJump'>EXPERIENCES</a>
+                      <li marginLeft='0px' paddingLeft='0px'>
+                      <a href='#experiences'>EXPERIENCES</a>
                       </li>
                     <li>
+                    <a href='https://www.linkedin.com/in/ayaan-dada-52b538204/' target="_blank">
                       <LinkedInIcon fontSize='large'/>
+                      </a>
                     </li>
                   </ul>
                   {!hideSignin &&
                     <ul className="list-reset header-nav-right">
                       <li>
-                        <a href='#toJump' target>
+                        <a href='https://github.com/ayaan-d' target="_blank">
                         <GitHubIcon fontSize='large'/>
                         </a>
                         {/* <Link to="toJump" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link> */}
