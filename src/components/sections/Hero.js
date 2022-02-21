@@ -164,11 +164,13 @@ id='toJump'
           <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
             Project 1            
           </div>
+          <a href='https://github.com/mizna-d/student-discord-bot' target="_blank">
           <h3 className="mt-0 mb-12">
             Discord Study Bot
             </h3>
+            </a>
           <p className="m-0">
-          As the pandemic continues to change the lifestyle of many students, I decided to program a Study Bot which enables students to work together and study efficiently through the popular platform Discord virtually during online schooling.
+          As the pandemic continues to change the lifestyle of many students, I decided to program a <a href='https://github.com/mizna-d/student-discord-bot' target="_blank"><u>Study Bot</u></a> which enables students to work together and study efficiently through the popular platform Discord virtually during online schooling.
           This StudyBot utilizes Discord.py paired with SQL to create databases for question banks for students to study. Furthermore, various API's enable features such as built in Wikipedia summaries, dictionaries and language translators. 
           </p>
         </div>
@@ -178,11 +180,13 @@ id='toJump'
             imageFill && 'split-item-image-fill'
           )}
           data-reveal-container=".split-item">
+          <a href='https://github.com/mizna-d/student-discord-bot' target="_blank">
           <Image
-            src={require('./../../assets/images/features-split-image-01.png')}
+            src={require('./../../assets/images/discord.png')}
             alt="Features split 01"
             width={528}
             height={396} />
+            </a>
         </div>
       </div>
 
@@ -191,11 +195,12 @@ id='toJump'
           <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
             Project 2
             </div>
+            <a href='https://github.com/ayaan-d/SortingVisualizer' target="_blank">
           <h3 className="mt-0 mb-12">
           Sorting Algorithm Visualizer
-            </h3>
+            </h3></a>
           <p className="m-0">
-          As I continue to delve into the world of data structures and algorithms, I decided to improve my coding logic and understanding of sorting algorithms through visualization. Through the PyGame library I programmed a sorting visualizer which works with many types of sorting such as bubble, quick, and merge sort and shows the process and differences between each algorithm to further comprehend their differences in time complexities and efficiency.                   </p>
+          As I continue to delve into the world of data structures and algorithms, I decided to improve my coding logic and understanding of sorting algorithms through visualization. Through the PyGame library I programmed a <a href='https://github.com/ayaan-d/SortingVisualizer' target="_blank"><u>sorting visualizer</u></a> which works with many types of sorting such as bubble, quick, and merge sort and shows the process and differences between each algorithm to further comprehend their differences in time complexities and efficiency.                   </p>
         </div>
         <div className={
           classNames(
@@ -203,7 +208,7 @@ id='toJump'
             imageFill && 'split-item-image-fill'
           )}
           data-reveal-container=".split-item">
-          <a href='https://github.com/AyaanDada0145/SortingVisualizer/blob/main/sortingVis.py' target="_blank">
+          <a href='https://github.com/ayaan-d/SortingVisualizer' target="_blank">
           <Image
             src={require('./../../assets/images/visualizerpng.png')}
             alt="Features split 02"
@@ -218,11 +223,12 @@ id='toJump'
           <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
             Project 3
             </div>
+            <a href='https://github.com/ayaan-d/StatIt---NBA' target="_blank">
           <h3 className="mt-0 mb-12">
           StatIt NBA
-            </h3>
+            </h3></a>
           <p className="m-0">
-          As a follower of the NBA, my love for the game of basketball led me to developing a project with the Tkinter module to display statistics for all professional players; past or present. By fetching data through the SportsReference API, the GUI allows those who are interested in the analytical and mathematical side behind sports such as myself to have all the info they need in one spot.
+          As a follower of the NBA, my love for the game of basketball led me to developing a <a href='https://github.com/ayaan-d/StatIt---NBA' target="_blank"><u>project</u></a> with the Tkinter module to display statistics for all professional players; past or present. By fetching data through the SportsReference API, the GUI allows those who are interested in the analytical and mathematical side behind sports such as myself to have all the info they need in one spot.
             </p>
         </div>
         <div className={
@@ -231,6 +237,8 @@ id='toJump'
             imageFill && 'split-item-image-fill'
           )}
           data-reveal-container=".split-item">
+          <a href='https://github.com/ayaan-d/StatIt---NBA' target="_blank">
+
           <Image
             src={require('./../../assets/images/statit.png')}
             alt="Features split 03"
@@ -238,6 +246,7 @@ id='toJump'
             // width={400}
             // height={200} 
             />
+            </a>
         </div>
       </div>
 
